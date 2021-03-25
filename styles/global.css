@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.post-title {
+  color: #3990b0;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.interess-post-section {
+  padding: 15px 0;
+  border-top: 2px solid #3990b0;
+}
+
+.interess-post-title {
+  font-weight: 700;
+  display: inline-block;
+  color: #374858;
+}
+
+.interess-post-side-section {
+  padding: 15px 0;
+  border-top: 2px solid #d47fa5;
+  font-weight: 700;
+}
+
+.interess-post-side-title {
+  font-weight: 700;
+  display: inline-block;
+  color: #d47fa5;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2a6ce485;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header {
+  border-bottom: 2px solid #0091b3;
+}
+
+.title-header {
+  color: #eb80a8;
+}

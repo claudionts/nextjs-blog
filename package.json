@@ -1,0 +1,31 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 9045",
+    "build": "next build",
+    "start": "next start -p 9045"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "date-fns": "^2.19.0",
+    "gray-matter": "^4.0.2",
+    "next": "^10.0.0",
+    "next-images": "^1.7.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "remark": "^12.0.0",
+    "remark-html": "^12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "@types/react": "^17.0.3",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.3",
+    "typescript": "^4.2.3"
+  }
+}
